@@ -148,6 +148,7 @@ body {
 .resume {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   gap: 40px;
   justify-items: center;
   background-color: #fafafa;
@@ -195,6 +196,7 @@ footer {
   font-size: 0.9rem;
   background-color: #fafafa;
   color: #000000;
+  background-image: url("images/background.png");
 }
 
 footer a {
@@ -210,7 +212,7 @@ footer a:hover {
 .socials-section {
   border-top: 1px solid #ddd;
   padding: 4rem 2rem;
-  background-image: url("images/background.png");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-size: cover;
@@ -321,6 +323,7 @@ footer a:hover {
 
 .showcase a {
   text-decoration: none;
+  color: black;
 }
 
 .showcase-item img {

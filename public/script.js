@@ -1,5 +1,7 @@
 function splitText() {
   const h2 = document.getElementById('animated-subtitle');
+  if (!h2) return; // If the element doesn't exist, exit safely
+
   const text = h2.textContent;
   h2.innerHTML = '';
   text.split('').forEach(char => {
